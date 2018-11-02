@@ -1,21 +1,33 @@
 {
-  "plateau" : {
-    "origin" : [0, 0],
-    "size"   : [5, 5]
-  },
+	"plateau" : {
+		"origin" : {
+			"x" : 0,
+			"y" : 0
+		},
+		"size"   : {
+			"x" : 5,
+			"y" : 5
+		}
+	},
 
-  "rovers"  :	[
-    {
-      "id"              : 1,
-      "initialLocation" : [1, 2],
-      "initialHeading"  : "N",
-      "course"          : "LMLMLMLMM"
-    },
-    {
-      "id"              : 2,
-      "initialLocation" : [3, 3],
-      "initialHeading"  : "E",
-      "course"          : "MMRMMRMRRM"
-    }
-  ]
+	"rovers"  :	[
+		{
+			"id"              : 1,
+			"initialLocation" : {
+				"x" : 1,
+				"y" : 2
+			},
+			"initialHeading"  : "N",
+			"course"          : "LMLMLMLMM"
+		},
+		{
+			"id"              : 2,
+			"initialLocation" : {
+				"x" : 3,
+				"y" : 3
+			},
+			"initialHeading"  : "E",
+			"course"          : "MMRMMRMRRM"
+		}
+	]
 }
